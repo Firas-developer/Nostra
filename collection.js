@@ -1,7 +1,6 @@
 //Function for Search List
 var search = document.getElementById("search");
 var container = document.getElementById("collections");
-console.log(container)
 var ProductItems = container.querySelectorAll("div")
 search.addEventListener("keyup", function () {
     var enteredValue = this.value.toUpperCase();
@@ -15,3 +14,10 @@ search.addEventListener("keyup", function () {
         }
     }
 });
+
+//Function for Ad
+var Ad = document.getElementById("Ad")
+var close = document.getElementById("close")
+close.addEventListener("click", function () {
+    Ad.style.display = "none"
+})

@@ -16,8 +16,6 @@ var sliderrightbutton = document.getElementById("slider-right-activate")
 var sliderimage = document.querySelector(".slider-image-container")
 var slidermargin = 0
 
-console.log(sliderleftbutton)
-
 sliderrightbutton.addEventListener("click",
 
     function () {
